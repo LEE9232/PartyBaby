@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4180155290557012829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4180155290557012831}
+  - component: {fileID: 4180155290557012830}
+  m_Layer: 0
+  m_Name: Skinmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4180155290557012831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180155290557012829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 449.14517, y: 744.34644, z: 13.455781}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4180155290557012830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180155290557012829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dca563e75e884043a88f5a20c0016c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceRenderer: {fileID: 0}
+  bodyRenderer: {fileID: 0}
+  faceMaterials:
+  - {fileID: 2100000, guid: 70e87ac56b6689144b030fb345a8b401, type: 2}
+  - {fileID: 2100000, guid: 2a07f3d4dfa55a84fba4595f48da703a, type: 2}
+  - {fileID: 2100000, guid: 0ee1046bfa647da418167a40f1559a42, type: 2}
+  - {fileID: 2100000, guid: a4dd904bdcfd7184bad92e17a0dbfb7b, type: 2}
+  - {fileID: 2100000, guid: 1ac1a27951be11b4889b5be3a444867a, type: 2}
+  - {fileID: 2100000, guid: d292e9a1f3681c04f966714640e0216a, type: 2}
+  - {fileID: 2100000, guid: 41293bcaa72fd6f40a4f40643d525fdc, type: 2}
+  - {fileID: 2100000, guid: bb645144563078b489923defcf92fb85, type: 2}
+  - {fileID: 2100000, guid: 3e488e0480188f2469a8fcff36a1f3aa, type: 2}
+  - {fileID: 2100000, guid: 3da2f12a56daef940956e31a98b87ed4, type: 2}
+  - {fileID: 2100000, guid: 70fb5c21f346fde4c9fcbc992528f92b, type: 2}
+  - {fileID: 2100000, guid: d3329b828b5ea7a40a68c74f7f666b84, type: 2}
+  - {fileID: 2100000, guid: 62b7324bba5dccf4e9bb111c501f93d1, type: 2}
+  - {fileID: 2100000, guid: 10d77eac715c46a49aeedf24c8b3a824, type: 2}
+  - {fileID: 2100000, guid: cd56217342c544e48a64bfb909606c18, type: 2}
+  - {fileID: 2100000, guid: 3aafeb178d2414041a22a9118a8ce127, type: 2}
+  - {fileID: 2100000, guid: 8e9439944fb8e97488028207305f43e2, type: 2}
+  - {fileID: 2100000, guid: a7edea527eda0f846b75194e352189d7, type: 2}
+  - {fileID: 2100000, guid: 205dcc6f53673984596bd720b79d638f, type: 2}
+  - {fileID: 2100000, guid: 9ad668e3ddd885941a5c21a5780e6728, type: 2}
+  bodyMaterials:
+  - {fileID: 2100000, guid: 4a8eb267f062eea438a1baa9a3b6e1be, type: 2}
+  - {fileID: 2100000, guid: 5f6a829950e737340bc793c7cb579b24, type: 2}
+  - {fileID: 2100000, guid: 0d5ff2adc90203045b3a63a474e3d64a, type: 2}
+  - {fileID: 2100000, guid: 1d4e89b16ad8f234cb6e00d1db8ae530, type: 2}
+  - {fileID: 2100000, guid: 0e0bc3b7748874441aee6cecad09f008, type: 2}
+  - {fileID: 2100000, guid: 84943e4c477013049806c2d1cb127233, type: 2}
+  - {fileID: 2100000, guid: 435ebd40120f9af4cb21fc2277ece575, type: 2}
+  - {fileID: 2100000, guid: ae6f90101db74b8468b82a6ce863f666, type: 2}
+  - {fileID: 2100000, guid: 10698a635ceb9ff4ea9cf71bb6936f21, type: 2}
+  faceSkinCosts: c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000
+  bodySkinCosts: c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000c8000000
+  pointsText: {fileID: 0}
+  purchaseFaceButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  applyFaceButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  purchaseBodyButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  applyBodyButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
